@@ -1,4 +1,4 @@
-module.exports = Backbone.Marionette.AppRouter.extend({
+pomodule.exports = Backbone.Marionette.AppRouter.extend({
     appRoutes: {
     	'': 'index',
     	'blog': 'blog',

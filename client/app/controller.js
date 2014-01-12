@@ -2,7 +2,8 @@ var Layout = require('views/default'),
 	Splash = require('views/splash'),
 	Blog = require('views/blog'),
 	Contact = require('views/contact'),
-	Portfolio = require('views/portfolio');
+	Portfolio = require('views/portfolio'),
+	Navbar = require('views/navbar');
 
 
 module.exports = Backbone.Marionette.Controller.extend({

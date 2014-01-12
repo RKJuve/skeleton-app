@@ -126,7 +126,8 @@ var Layout = require('views/default'),
 	Splash = require('views/splash'),
 	Blog = require('views/blog'),
 	Contact = require('views/contact'),
-	Portfolio = require('views/portfolio');
+	Portfolio = require('views/portfolio'),
+	Navbar = require('views/navbar');
 
 
 module.exports = Backbone.Marionette.Controller.extend({
@@ -169,7 +170,7 @@ $(function() {
 });
 
 ;require.register("router", function(exports, require, module) {
-module.exports = Backbone.Marionette.AppRouter.extend({
+pomodule.exports = Backbone.Marionette.AppRouter.extend({
     appRoutes: {
     	'': 'index',
     	'blog': 'blog',
