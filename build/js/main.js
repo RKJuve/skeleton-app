@@ -142,12 +142,15 @@ module.exports = Backbone.Marionette.Controller.extend({
   	APP.mainLayout.main.show(new Splash());
   },
   contact: function() {
+  	APP.mainLayout.navbar.show(new Navbar());
 	APP.mainLayout.main.show(new Contact());
   },
   portfolio: function() {
+  	APP.mainLayout.navbar.show(new Navbar());
   	APP.mainLayout.main.show(new Portfolio());
   },
   blog: function() {
+  	APP.mainLayout.navbar.show(new Navbar());
   	APP.mainLayout.main.show(new Blog());
   }
 });
