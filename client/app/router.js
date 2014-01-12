@@ -1,5 +1,8 @@
 module.exports = Backbone.Marionette.AppRouter.extend({
     appRoutes: {
-    	'': 'index'
+    	'': 'index',
+    	'blog': 'blog',
+    	'contact': 'contact',
+    	'portfolio': 'portfolio'
     }
 });
