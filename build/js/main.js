@@ -170,7 +170,7 @@ $(function() {
 });
 
 ;require.register("router", function(exports, require, module) {
-pomodule.exports = Backbone.Marionette.AppRouter.extend({
+module.exports = Backbone.Marionette.AppRouter.extend({
     appRoutes: {
     	'': 'index',
     	'blog': 'blog',
