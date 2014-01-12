@@ -5,14 +5,12 @@ var 	path = require("path"),
 
 // bring in mongodb stuf
 var	mongo = require('mongodb'),
-	monk = require('monk'),
-	db = monk('localhost:27017/portfolio'),
-	test = db.get('test');
+	monk = require('monk');
 
 
 
 
-var buildDir = '../build';
+var buildDir = './build';
 
 //set up the express app
 var app = express()
