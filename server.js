@@ -5,7 +5,10 @@ var 	path = require("path"),
 
 // bring in mongodb stuf
 var	mongo = require('mongodb'),
-	monk = require('monk');
+	monk = require('monk'),
+	db = monk(process.env.MONGOHQ_URL),
+	test = db.get('test');
+	test.insert({'test1':'test2'});
 
 
 
